@@ -54,16 +54,16 @@ y_grad = y_pre.grad
 z2_grad = z2.grad
 
 dy_dz2 = torch.matmul(pinv(y_grad), z2_grad).numpy()
-print("dy/dz2:", dy_dz2)
+print("dy/dz2:\n", dy_dz2)
 
 dz2_da1 = torch.matmul(pinv(z2.grad), a1.grad).numpy()
 w2_grad = w2.grad.view(1, 10)
-dz2_dw2 = torch.matmul(pinv(z2.grad), w2_grad)
-print("dz2/da1:", dz2_da1)
-print("dz2/dw2:", dz2_dw2)
+dz2_dw2 = torch.matmul(pinv(z2.grad), w2_grad).numpy()
+print("dz2/da1:\n", dz2_da1)
+print("dz2/dw2:\n", dz2_dw2)
 
 da1_dz1 = torch.matmul(pinv(a1.grad), z1.grad).numpy()
-print("da1/dz1:", da1_dz1)
+print("da1/dz1:\n", da1_dz1)
 dz1_dw1 = torch.matmul(z1.grad, w1.grad.T).numpy()
 print("dz1/dw1:", dz1_dw1)
 print("x:", x.numpy())
