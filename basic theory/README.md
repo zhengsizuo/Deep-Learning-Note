@@ -9,3 +9,6 @@
 <a href="https://github.com/zhengsizuo/Deep-Learning-Note/blob/master/basic%20theory/computation_graph_example.py">
     <img class="course-image" src="https://github.com/zhengsizuo/Deep-Learning-Note/blob/master/basic%20theory/figures/computation_graph_toy_example.PNG">
 </a>
+
+### Optimization algorithm
+More information on my [Zhihu Blog](https://zhuanlan.zhihu.com/p/60088231) 
