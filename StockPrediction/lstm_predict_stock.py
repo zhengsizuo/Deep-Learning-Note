@@ -7,11 +7,10 @@ import pandas as pd
 import numpy as np
 import torch
 import torch.nn as nn
-import matplotlib.pyplot as plt
 
 from sklearn.metrics import mean_squared_error
 from sklearn.preprocessing import StandardScaler
-from RNNModel import RNN, device
+from StockPrediction.RNNModel import RNN, device
 
 # parameters set
 data_path = 'data/VTI.csv'
