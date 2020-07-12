@@ -1,7 +1,7 @@
 # Deep-Learning-Note
 Some notes and code test about Deep Learning
 ## Theory
-Some collections of classic [blogs](basic theory/经典博客.md).
+Some collections of classic [blogs](https://github.com/zhengsizuo/Deep-Learning-Note/blob/master/basic%20theory/%E7%BB%8F%E5%85%B8%E5%8D%9A%E5%AE%A2.md).
 ## Application
 ### Stock price prediction
 <a href="https://github.com/zhengsizuo/Deep-Learning-Note/blob/master/StockPrediction/lstm_predict_stock.py">
